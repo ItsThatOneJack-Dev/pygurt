@@ -1,0 +1,33 @@
+[project]
+name = "pygurt"
+version = "1.0.1"
+description = "A Python implementation of the GURT standard, including both a client and server!"
+readme = "README.md"
+authors = [
+    { name = "ItsThatOneJack", email = "157112523+ItsThatOneJack-Dev@users.noreply.github.com" },
+]
+requires-python = ">=3.12"
+dependencies = ["rich>=14.1.0"]
+license = { text = "AGPL-3.0" }
+
+classifiers = [
+    "Natural Language :: English",
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Developers",
+    "Operating System :: OS Independent",
+    "Topic :: Security :: Cryptography",
+    "License :: OSI Approved :: GNU Affero General Public License v3",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3.13",
+    "Programming Language :: Python :: 3.14",
+]
+
+[project.urls]
+Homepage = "https://git.itoj.dev/pygurt"
+Repository = "https://git.itoj.dev/pygurt"
+Issues = "https://git.itoj.dev/pygurt/issues"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"

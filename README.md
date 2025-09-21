@@ -19,11 +19,11 @@ Here is an example, supporting TLS and automatically fetching the GurtCA root ce
 from pygurt import Client
 
 client = Client(
-    base_url='gurt://135.125.163.131:4878',
+    baseUrl='gurt://135.125.163.131:4878',
     timeout=10.0,
-    use_tls=True,
-    require_handshake=True,
-    max_connections=5
+    useTLS=True,
+    requireHandshake=True,
+    maxConnections=5
 )
 client.loadCaFromGurtca() # Automatically fetch and load the GurtCA root certificate from http://135.125.163.131:8876/ca/root
 
